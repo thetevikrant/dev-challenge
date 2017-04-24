@@ -1,0 +1,39 @@
+/* FONT IMPORT
+-------------------------------------------------- */
+@font-face {
+    font-family: openSansReqular;
+    src: url('fonts/OpenSans-Regular.eot'); /* IE9 Compat Modes */
+    src: url('fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'); /* IE6-IE8 */
+    src: url('fonts/OpenSans-Regular.ttf') ,
+    url('fonts/OpenSans-Regular.eot');
+}
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+:root {
+  --primary-color: #006AC1;
+}
+html, body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: openSansReqular;
+  color: #1e1e1e;
+}
+.navbar-custom {
+  margin-bottom: 0px;
+  border: medium none;
+  background-image: none;
+  background-color: var(--primary-color);
+  border-radius: 0;
+  height: 55px;
+  z-index: 1;
+}
+.navbar-custom > .container-fluid .navbar-brand {
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+.navbar-custom-bottom {
+  margin: 20px 0 0 0;
+}
